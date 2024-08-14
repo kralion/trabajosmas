@@ -1,0 +1,136 @@
+---
+import PageHeader from "@/components/PageHeader.astro";
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import { Image } from "astro:assets";
+import { getEntryBySlug } from "astro:content";
+
+const entry = await getEntryBySlug("contact", "index");
+const { contact_form_action } = config.params;
+const contact = entry.data;
+const page_data = {
+  ...contact,
+  content: contact.body,
+};
+---
+
+<Base
+  title={contact.title}
+  meta_title={contact.meta_title}
+  description={contact.description}
+  image={contact.image}
+>
+  <section class="page-hero pb-6 pt-16">
+    <div class="container"><PageHeader page_data={page_data} /></div>
+  </section>
+
+  <section class="section pt-0">
+    <div class="container">
+      <div class="row">
+        <div class="mb-10 text-center md:col-6 md:order-2 md:mb-0 md:pt-9">
+          <div class="contact-img relative inline-flex pb-5 pl-5">
+            <Image
+              src="/images/contact-img.jpg"
+              height={544}
+              width={500}
+              alt=""
+            />
+            <Image
+              class="absolute bottom-0 left-0 -z-[1] h-14 w-14"
+              src="/images/shape-2.png"
+              alt=""
+              height={56}
+              width={56}
+            />
+          </div>
+        </div>
+        <div class="md:col-6 md:order-1">
+          <form
+            class="lg:max-w-[484px]"
+            action={contact_form_action}
+            method="POST"
+          >
+            <div class="form-group mb-5">
+              <label class="form-label" for="name">Nombres y Apellidos</label>
+              <input
+                class="form-control"
+                type="text"
+                id="nombresApellidos"
+                placeholder="Tu Nombre Completo"
+              />
+            </div>
+            <div class="form-group mb-5">
+              <label class="form-label" for="email">Correo Electrónico</label>
+              <input
+                class="form-control"
+                type="email"
+                id="email"
+                placeholder="Tu  Correo Electrónico"
+              />
+            </div>
+            <div class="form-group mb-5">
+              <label class="form-label" for="empleoDeseado"
+                >Empleo Deseado</label
+              >
+              <select
+                name="empleoDeseado"
+                id="empleoDeseado"
+                class="form-select cursor-pointer hover:opacity-80"
+                required
+              >
+                <option value="">Selecciona un tipo de empleo</option>
+                <option value="personal de limpieza"
+                  >Personal de limpieza</option
+                >
+                <option value="empacadores de productos"
+                  >Empacadores de productos</option
+                >
+                <option value="industria hotelera">Industria hotelera</option>
+                <option value="trabajos en minas">Trabajos en minas</option>
+                <option value="trabajos para niñeras"
+                  >Trabajos para niñeras</option
+                >
+                <option value="trabajos en construccion"
+                  >Trabajos en construcción</option
+                >
+                <option value="trabajos de cuidadores de adulto mayor"
+                  >Trabajos de cuidadores de adulto mayor</option
+                >
+                <option value="trabajos para cuidadores de fincas"
+                  >Trabajos para cuidadores de fincas</option
+                >
+                <option value="trabajos para aeropuertos"
+                  >Trabajos para Aeropuertos</option
+                >
+                <option value="trabajos en restaurantes"
+                  >Trabajos en restaurantes</option
+                >
+              </select>
+            </div>
+            <div class="form-group mb-5">
+              <label class="form-label" for="pais">País</label>
+              <select
+                name="pais"
+                id="pais"
+                class="form-select cursor-pointer hover:opacity-80"
+                required
+              >
+                <option value="">Selecciona el país</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+              </select>
+            </div>
+
+            <input
+              class="btn btn-primary block w-full"
+              type="submit"
+              value="Registrarme"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

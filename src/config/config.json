@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
-    "base_url": "https://pinwheel-astro.vercel.app",
+    "title": "Trabajosmas",
+    "base_url": "https://trabajosmas.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_width": "147",
-    "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "logo_width": "160",
+    "logo_height": "55",
+    "logo_text": "Trabajosmas"
   },
 
   "settings": {
@@ -18,27 +18,27 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "Los mejores empleos en un solo lugar",
+    "description": "Plataforma de ofertas laborales para empleados en latinoamerica, con un enfoque en la multidisciplinaridad y la diversidad.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+      "label": "Registrarse Ahora",
+      "link": "/contact"
     }
   },
 
   "disqus": {
     "enable": true,
-    "shortname": "themefisher-template",
+    "shortname": "Trabajosmas",
     "settings": {}
   },
 
   "params": {
-    "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "footer_description": "Plataforma de ofertas laborales para empleados en latinoamerica.",
     "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
+    "location": "Calle Los Inkas - Huancayo, Junín, Peru",
     "phone": "+704-555-0127",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Copyright © 2024 Trabajosmas - Todos los derechos Reservados"
   },
 
   "metadata": {

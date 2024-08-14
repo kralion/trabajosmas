@@ -1,4 +1,4 @@
 ---
-title: Contact
-page_title: Get’n touch with Our </br> Pinwheel team
+title: Registro
+page_title: Regístrate para </br> recibir ofertas laborales.
 ---

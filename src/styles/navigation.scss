@@ -21,7 +21,7 @@ input#nav-toggle:checked ~ #nav-menu {
 
 // navbar items
 .navbar {
-  @apply relative flex flex-wrap items-center justify-between;
+  @apply relative flex flex-wrap  justify-between;
 }
 
 .navbar-brand {
@@ -32,7 +32,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .navbar-nav {
-  @apply text-center lg:text-left;
+  @apply text-left my-10 lg:my-0 h-screen lg:h-auto;
 }
 
 .nav-link {
