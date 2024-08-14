@@ -13,6 +13,10 @@
 
   "footer": [
     {
+      "name": "Inicio",
+      "url": "/"
+    },
+    {
       "name": "Registro",
       "url": "/registro"
     }

@@ -10,72 +10,75 @@ banner:
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: "Una vasta gamma de industrias para trabajar"
+  description: Las ofertas de nuestra plataforma son variadas a preferencia y son la mejor manera de encontrar oportunidades laborales.
   feature_list:
-    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor" #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor" #icon package react-feather-icon [https://feathericons.com/]
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - icon: "trash" #icon package react-feather-icon [https://feathericons.com/]
+      title: Limpieza
+      content: Mantiene espacios limpios y ordenados, asegurando un ambiente saludable.
+    - icon: "package" #icon package react-feather-icon [https://feathericons.com/]
+      title: Empacadores de productos
+      content: Se encarga de empaquetar productos de manera eficiente y cuidadosa para su distribución.
+    - icon: "airplay" #icon package react-feather-icon [https://feathericons.com/]
+      title: Industria hotelera
+      content: Ofrece servicios de alojamiento y atención al cliente, garantizando una experiencia memorable.
+    - icon: "aperture" #icon package react-feather-icon [https://feathericons.com/]
+      title: Trabajos en minas
+      content: Realiza actividades de extracción y procesamiento de minerales en entornos subterráneos o a cielo abierto.
+    - icon: "award" #icon package react-feather-icon [https://feathericons.com/]
+      title: Trabajos para niñeras
+      content: Cuida y supervisa a niños, proporcionando un ambiente seguro y estimulante.
+    - icon: "codesandbox" #icon package react-feather-icon [https://feathericons.com/]
+      title: Trabajos en construcción
+      content: Participa en la edificación y mantenimiento de estructuras, trabajando en equipo para cumplir plazos.
+    - icon: "clipboard" #icon package react-feather-icon [https://feathericons.com/]
+      title: Trabajos de cuidadores de adulto mayor
+      content: Asiste y acompaña a personas mayores, promoviendo su bienestar y calidad de vida.
+    - icon: "compass" #icon package react-feather-icon [https://feathericons.com/]
+      title: Trabajos para cuidadores de fincas
+      content: Se encarga del cuidado y mantenimiento de propiedades rurales, incluyendo animales y cultivos.
+    - icon: "flag" #icon package react-feather-icon [https://feathericons.com/]
+      title: Trabajos para aeropuertos
+      content: Facilita operaciones de transporte aéreo, atención al cliente y seguridad en el aeropuerto.
+    - icon: "coffee" #icon package react-feather-icon [https://feathericons.com/]
+      title: Trabajos en restaurantes
+      content: Ofrece servicios de alimentación y atención al cliente, creando experiencias gastronómicas agradables.
 
 #service
 service:
   homepage_tab:
-    title: Prevent failure from to impacting your reputation
-    description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
+    title: Países en los que operamos
+    description: Nuestra plataforma ofrece una gama de oportunidades en los diferentes países del continente.
     tab_list:
-      - title: Habit building essential choose habit
-        icon: "lock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/sells-by-country.png"
-      - title: Get an overview of Habit Calendars.
-        icon: "clock" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/collaboration.png"
-      - title: Start building with Habitify platform
-        icon: "bell" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/sells-by-country.png"
+      - title: Perú
+        icon: "map" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/per.png"
+      - title: Colombia
+        icon: "navigation" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/col.png"
+      - title: Argentina
+        icon: "map" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/arg.png"
+      - title: Ecuador
+        icon: "navigation" #icon package react-feather-icon [https://feathericons.com/]
+        image: "/images/ecu.png"
 
   our_service:
-    - title: Accept payments any country in this whole universe
-      desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
+    - title: Elige tu prefencia laboral para obtener ofertas
+      desctiption: El seleccionar tu preferencia laboral nos permite ofrecer una variedad de ofertas para que puedas encontrar el trabajo perfecto para ti.
       image: "/images/collaboration.png"
       list:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
-    - title: Accountability that works for you
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+        - Registrate con tus datos
+        - Elige tu preferencia laboral
+        - Selecciona el país para trabajar
+    - title: Visita tu bandeja de correos
+      description: Mantente al día con tus solicitudes y ofertas de trabajo. Visita tu bandeja de correos para ver si hay alguna que puedas asistir.
       video:
         thumbnail: "/images/intro-thumbnail.png"
         video_id: "g3-VxLQO7do"
       button:
-        label: Know About Us
-        link: "#"
+        label: Registrate
+        link: "/registro"
         enable: true
 
 #testimonial

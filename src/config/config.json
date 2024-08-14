@@ -34,16 +34,16 @@
 
   "params": {
     "footer_description": "Plataforma de ofertas laborales para empleados en latinoamerica.",
-    "email": "info@andromeda.io",
+    "email": "trabajosmas@gmail.com",
     "location": "Calle Los Inkas - Huancayo, Junín, Peru",
-    "phone": "+704-555-0127",
+    "phone": "+51 999 999 999",
     "contact_form_action": "#",
     "copyright": "Copyright © 2024 Trabajosmas - Todos los derechos Reservados"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Trabajosmas",
     "meta_image": "/images/og-image.png",
-    "meta_description": "pinwheel astro"
+    "meta_description": "Trabajosmas es una plataforma de ofertas laborales para empleados en latinoamerica, con un enfoque en la multidisciplinaridad y la diversidad."
   }
 }

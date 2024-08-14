@@ -17,41 +17,22 @@ const { homepage_tab, our_service } = service;
             {item.image && (
               <div class="relative">
                 <Image
-                  class="w-full object-contain"
+                  class="w-full object-contain lg:m-16 lg:p-10 drop-shadow-sm rounded-xl"
                   alt="service"
                   width={667}
                   height={498}
                   src={item.image}
                 />
-                <Image
-                  class="absolute bottom-6 left-1/2 -z-[1] -translate-x-1/2"
-                  src="/images/shape-2.png"
-                  alt=""
-                  height={147}
-                  width={151}
-                />
               </div>
-            )}
-            {item.video && (
-              <VideoComponent
-                client:load
-                src={item.video.thumbnail}
-                height={370}
-                width={700}
-                title={item.title}
-                video_id={item.video.video_id}
-                video_width="w-[700px]"
-                video_height="h-[370px]"
-              />
             )}
           </div>
           <div
-            class={`mt-6 lg:col-5 lg:mt-0 ${
+            class={`mt-6 lg:col-5 lg:mt-0  ${
               index % 2 === 0 ? "order-1" : "order-0"
             }`}
           >
-            <div class="text-container">
-              <h2 class="lg:text-4xl">{item.title}</h2>
+            <div class="text-container ">
+              <h2 class="lg:text-4xl ">{item.title}</h2>
               <p class="mt-4">{item.description}</p>
               {item.button && item.button.enable && (
                 <a class="btn btn-white mt-6" href={item.button.link}>
