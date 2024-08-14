@@ -22,7 +22,7 @@
     "description": "Plataforma de ofertas laborales para empleados en latinoamerica, con un enfoque en la multidisciplinaridad y la diversidad.",
     "button": {
       "label": "Registrarse Ahora",
-      "link": "/contact"
+      "link": "/registro"
     }
   },
 
