@@ -10,7 +10,7 @@ banner:
 
 ##key features
 key_features:
-  title: "Una vasta gamma de industrias para trabajar"
+  title: "Una vasta gama de industrias para trabajar"
   description: Las ofertas de nuestra plataforma son variadas a preferencia y son la mejor manera de encontrar oportunidades laborales.
   feature_list:
     - icon: "trash" #icon package react-feather-icon [https://feathericons.com/]

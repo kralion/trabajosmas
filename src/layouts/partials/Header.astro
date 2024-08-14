@@ -41,13 +41,22 @@ const { pathname } = Astro.url;
     </label>
     <!-- /navbar toggler -->
 
-    <div class="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex">
+    <div
+      id="registerDiv"
+      class="order-1 ml-auto items-center md:order-2 md:ml-0 lg:flex hidden"
+    >
       <a class="btn btn-white btn-sm" href="/registro"> Registrarse Ahora</a>
     </div>
   </nav>
 </header>
 
 <script is:inline>
+  document.addEventListener("DOMContentLoaded", function () {
+    const registerDiv = document.getElementById("registerDiv");
+    if (window.location.href.includes("/registro")) {
+      registerDiv.style.display = "none";
+    }
+  });
   document.querySelectorAll(".dropdown-button").forEach((button) => {
     button.addEventListener("click", (e) => {
       const dropdown = e.target.nextElementSibling;
