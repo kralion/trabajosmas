@@ -1,8 +1,7 @@
 ---
 import HomepageTab from "@/layouts/function-components/HomepageTab";
-import VideoComponent from "@/layouts/function-components/VideoComponent";
-import { AiFillCheckCircle } from "react-icons/ai";
 import { Image } from "astro:assets";
+import { AiFillCheckCircle } from "react-icons/ai";
 const { service } = Astro.props;
 const { homepage_tab, our_service } = service;
 ---
@@ -31,7 +30,7 @@ const { homepage_tab, our_service } = service;
               index % 2 === 0 ? "order-1" : "order-0"
             }`}
           >
-            <div class="text-container ">
+            <div class="text-container px-4 lg:px-0">
               <h2 class="lg:text-4xl ">{item.title}</h2>
               <p class="mt-4">{item.description}</p>
               {item.button && item.button.enable && (

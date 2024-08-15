@@ -75,15 +75,16 @@ if (Astro.request.method === "POST") {
     <div class="container"><PageHeader page_data={page_data} /></div>
   </section>
 
-  <section class="section lg:p-0 p-4">
+  <section class="section p-4 pb-16">
     <div class="container">
       <div class="row">
         <div class="mb-10 text-center md:col-6 md:order-2 md:mb-0 md:pt-9">
           <div class="contact-img relative lg:inline-flex pb-5 pl-5 hidden">
             <Image
-              src="/images/contact-img.jpg"
-              height={544}
-              width={500}
+              class="drop-shadow-sm"
+              src="/images/contacts.png"
+              height={644}
+              width={600}
               alt=""
             />
             <Image
@@ -176,6 +177,9 @@ if (Astro.request.method === "POST") {
                 <option value="Brasil">Brasil</option>
                 <option value="Chile">Chile</option>
                 <option value="Colombia">Colombia</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Perú">Perú</option>
+                <option value="Uruguay">Uruguay</option>
               </select>
             </div>
 

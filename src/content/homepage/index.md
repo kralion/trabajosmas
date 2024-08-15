@@ -47,21 +47,9 @@ key_features:
 #service
 service:
   homepage_tab:
-    title: Países en los que operamos
-    description: Nuestra plataforma ofrece una gama de oportunidades en los diferentes países del continente.
-    tab_list:
-      - title: Perú
-        icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/per.png"
-      - title: Colombia
-        icon: "navigation" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/col.png"
-      - title: Argentina
-        icon: "map" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/arg.png"
-      - title: Ecuador
-        icon: "navigation" #icon package react-feather-icon [https://feathericons.com/]
-        image: "/images/ecu.png"
+    title: Ofertas para toda Latinoamérica
+    description: Nuestra plataforma ofrece una gama de oportunidades en los diferentes países de LATAM.
+    img: "/images/woman.png"
 
   our_service:
     - title: Elige tu prefencia laboral para obtener ofertas
