@@ -8,6 +8,21 @@
   @apply mx-auto max-w-[1202px] px-3;
 }
 
+// Alert component
+.alert {
+  @apply mb-5 p-4 rounded-lg border;
+
+  &-success {
+    @apply bg-green-100 border-green-500 text-green-700;
+  }
+
+  &-error {
+    @apply bg-red-100 border-red-500 text-red-700;
+  }
+}
+
+// You can add these styles to your existing SCSS file
+
 // form style
 .form-inputs * {
   @apply mb-5 leading-10;
